@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col, Spin, Empty, message } from "antd";
 
-import CharacterCard from "../../components/Card";
+import CharacterCard from "../../components/card";
 import Pagination from "../../components/Pagination";
 
 import { getCharacters } from "../../services/api";
